@@ -1,0 +1,28 @@
+/* Countdown.module.css */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
+
+.countdownContainer {
+    text-align: center;
+  }
+  
+  .clock {
+    font-family: "Courier New", monospace; /* Use a monospaced font for a digital clock feel */
+    font-size: 2rem;
+    display: inline-block;
+    /* font-family: 'Space Mono', monospace; */
+  }
+  
+  .time {
+    display: inline-block;
+    padding: 0.2em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 0 0.1em;
+  }
+  
+  .separator {
+    display: inline-block;
+    margin: 0 0.2em;
+  }
+  
