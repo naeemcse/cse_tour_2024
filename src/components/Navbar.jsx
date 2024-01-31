@@ -1,11 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom"; 
 import Booking from './../pages/Booking';
+import pdfFile from "..//../public/tour.pdf"
 
 const Navbar = () => {
+  
+  const handleDownload = () => {
+    // window.open(pdfFile, '_blank');
+    const link = document.createElement('a');
+  link.href = pdfFile;
+  link.download = 'CSE Tour Plane 2024 arranged by cse-12 .pdf'; // Replace with your desired file name
+  link.click();
+  };
   return (
     <>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 sticky top-0 z-50 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,21 +38,21 @@ const Navbar = () => {
               className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
-                <a>Item 1</a>
+                <a href="/contact"> Contact </a>
               </li>
               <li>
-                <a>Parent</a>
+                <a> Photo Gallery </a>
                 <ul className="p-2">
                   <li>
-                    <a>Submenu 1</a>
+                    <a> Teacher </a>
                   </li>
                   <li>
-                    <a>Submenu 2</a>
+                    <a>Student</a>
                   </li>
                 </ul>
               </li>
               <li>
-                <a>Item 3</a>
+              <a> Who Participated </a>
               </li>
             </ul>
           </div>
@@ -54,7 +63,8 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">
             <li>
               
-              <a>  Tour Plane</a>
+            <a href="/contact"> Contact </a>
+
             </li>
             <li>
               <details>
@@ -70,13 +80,13 @@ const Navbar = () => {
               </details>
             </li>
             <li>
-              <a>Item 3</a>
+              <a> Who Participated </a>
             </li>
           </ul>
         </div>
         <div className="navbar-end">
-          
-          <a href="/booking" className="btn">Book a Seat </a>
+        <a href="/tourplane" onClick={handleDownload} className="mx-1 bg-secondary btn"> Download Tour Plane </a>
+          <a href="/booking" className="btn bg-green-300">Book a Seat </a>
           {/* <Link to="/booking" className="btn">Button</Link> */}
 
         </div>

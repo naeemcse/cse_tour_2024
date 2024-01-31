@@ -1,13 +1,16 @@
 body{
-  background-image: url("https://i.pinimg.com/originals/64/ea/fa/64eafa6aa2a0bff04a92d9fd4aeb81b4.gif");
+  /* background-image: url("https://i.pinimg.com/originals/64/ea/fa/64eafa6aa2a0bff04a92d9fd4aeb81b4.gif"); */
 }
 
 #root {
-  max-width: 1280px;
+  /* max-width:  1280px; */
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
   background: #DEF4FC ;
+  padding-top: 0 ;
+
 }
 
 .logo {
