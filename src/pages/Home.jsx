@@ -1,21 +1,17 @@
-import React from 'react';
-import Hero from '../components/Hero';
-import Teacher from '../components/Teacher';
-import DaySchedule from '../components/DaySchedule';
-import Services from '../components/Services';
-import PhotoGrid from '../components/PhotoGrid';
+import React from "react";
+import DaySchedule from "../components/DaySchedule";
+import Hero from "../components/Hero";
+import Services from "../components/Services";
+import Teacher from "../components/Teacher";
 const Home = () => {
-   
-    return (
-        <div>
-            <Hero />
-            <Teacher />
-            <DaySchedule />
-         <Services/>
-         
-            
-        </div>
-    );
+  return (
+    <div className="w-full h-full">
+      <Hero />
+      <DaySchedule />
+      <Teacher />
+      <Services />
+    </div>
+  );
 };
 
 export default Home;
