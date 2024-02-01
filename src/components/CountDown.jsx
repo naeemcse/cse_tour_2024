@@ -27,7 +27,7 @@ const CountdownToFebruary28 = () => {
 
   return (
     <div className={styles.countdownContainer}>
-      <h2>Remaining  to February 28, 2024:</h2>
+      <h2 className='mb-2'>Remaining  to February 28, 2024:</h2>
       <div className={styles.clock}>
         <span className={styles.time}>{days} D</span>
         <span className={styles.separator}>:</span>

@@ -45,13 +45,13 @@ const Teacher = () => {
   return (
     <>
       <div className="py-12 pb-20 bg-gray-800">
-        <h2 className="text-3xl text-white font-bold mt-5 mb-6 px-3">
+        <h2 className="text-4xl text-white font-bold mt-5 mb-6 px-3 font-primary">
           {" "}
           Honourable Teacher who are joining with us{" "}
         </h2>
         <div className="w-full h--full">
           <Swiper
-            slidesPerView={'auto'}
+            slidesPerView={"auto"}
             spaceBetween={20}
             freeMode={true}
             pagination={{
@@ -61,9 +61,12 @@ const Teacher = () => {
             className="grid grid-cols-3"
           >
             {data.map((val, ind) => (
-              <SwiperSlide className="rounded group max-w-sm sm:max-w-md md:max-w-lg" key={ind}>
+              <SwiperSlide
+                className="rounded group max-w-sm sm:max-w-md md:max-w-lg"
+                key={ind}
+              >
                 <div className="bg-[whitesmoke] rounded rounded-ee-none pb-8 pt-10 px-6 relative">
-                  <p className="font-primary text-gray-800">
+                  <p className="font-secondary text-gray-700">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. At
                     enim odit sequi facere quasi autem sapiente minus architecto
                     eaque, distinctio, cumque rerum alias, dolorem fugit

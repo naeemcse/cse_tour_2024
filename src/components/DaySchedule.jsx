@@ -10,7 +10,9 @@ import * as React from "react";
 const DailySchedule = () => {
   return (
     <div className="py-16">
-      <h1 className="text-3xl tracking-wider font-bold">Tour Timeline</h1>
+      <h1 className="text-4xl tracking-wider font-bold font-primary ">
+        Tour Timeline
+      </h1>
       <div className="mt-6">
         <Timeline position="alternate">
           <TimelineItem>
@@ -19,6 +21,7 @@ const DailySchedule = () => {
               align="right"
               variant="body2"
               color="text.secondary"
+              className="!font-secondary !font-medium"
             >
               28 February 2024
             </TimelineOppositeContent>
@@ -33,7 +36,7 @@ const DailySchedule = () => {
               sx={{ py: "12px", px: 2 }}
               className="flex items-center"
             >
-              <p className="font-medium text-xl">Tour Start</p>
+              <p className="font-medium font-secondary text-xl">Tour Start</p>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
@@ -41,6 +44,7 @@ const DailySchedule = () => {
               sx={{ m: "auto 0" }}
               variant="body2"
               color="text.secondary"
+              className="!font-secondary !font-medium"
             >
               29 February 2024
             </TimelineOppositeContent>
@@ -52,36 +56,56 @@ const DailySchedule = () => {
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <ul>
-                <li className="space-x-2">
+              <ul className="">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
 
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
               </ul>
             </TimelineContent>
           </TimelineItem>
           <TimelineItem>
+            <TimelineOppositeContent
+              sx={{ m: "auto 0" }}
+              variant="body2"
+              color="text.secondary"
+              className="!font-secondary !font-medium"
+            >
+              1 March 2024
+            </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
               <TimelineDot className="w-36 !bg-gray-200 !shadow">
@@ -90,30 +114,42 @@ const DailySchedule = () => {
               <TimelineConnector sx={{ bgcolor: "secondary.main" }} />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <ul>
-                <li className="space-x-2">
-                  <span className="text-xs text-gray-700">9:00AM</span>
+              <ul className="">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
                 </li>
-                <li className="space-x-2">
-                  <span className="text-xs text-gray-700">9:00AM</span>
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
                 </li>
-                <li className="space-x-2">
-                  <span className="text-xs text-gray-700">9:00AM</span>
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
                 </li>
-                <li className="space-x-2">
-                  <span className="text-xs text-gray-700">9:00AM</span>
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
                 </li>
 
-                <li className="space-x-2">
-                  <span className="text-xs text-gray-700">9:00AM</span>
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
                 </li>
-                <li className="space-x-2">
-                  <span className="text-xs text-gray-700">9:00AM</span>
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
                 </li>
               </ul>
@@ -124,42 +160,58 @@ const DailySchedule = () => {
               sx={{ m: "auto 0" }}
               variant="body2"
               color="text.secondary"
+              className="!font-secondary !font-medium"
             >
-              29 February 2024
+              2 March 2024
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
-              <TimelineDot className="w-36 !bg-purple-100 !shadow !border" variant="">
+              <TimelineDot
+                className="w-36 !bg-purple-100 !shadow !border"
+                variant=""
+              >
                 <img src="dinner.png" alt="" />
               </TimelineDot>
               <TimelineConnector />
             </TimelineSeparator>
             <TimelineContent sx={{ py: "12px", px: 2 }}>
-              <ul>
-                <li className="space-x-2">
+              <ul className="">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
 
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
-                <li className="space-x-2">
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    9:00AM
+                  </span>
                   <span className="">Breakfast</span>{" "}
-                  <span className="text-xs text-gray-700">9:00AM</span>
                 </li>
               </ul>
             </TimelineContent>
@@ -167,11 +219,11 @@ const DailySchedule = () => {
           <TimelineItem>
             <TimelineOppositeContent
               sx={{ m: "auto 0" }}
-              align="right"
               variant="body2"
               color="text.secondary"
+              className="!font-secondary !font-medium"
             >
-              28 February 2024
+              3 March 2024
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
@@ -184,7 +236,7 @@ const DailySchedule = () => {
               sx={{ py: "12px", px: 2 }}
               className="flex items-center"
             >
-              <p className="font-medium text-xl">Back to Home</p>
+              <p className="font-medium font-secondary text-xl">Back to Home</p>
             </TimelineContent>
           </TimelineItem>
         </Timeline>

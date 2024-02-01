@@ -1,17 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom"; 
-import Booking from './../pages/Booking';
-import pdfFile from "..//../public/tour.pdf"
 
 const Navbar = () => {
-  
-  const handleDownload = () => {
-    // window.open(pdfFile, '_blank');
-    const link = document.createElement('a');
-  link.href = pdfFile;
-  link.download = 'CSE Tour Plane 2024 arranged by cse-12 .pdf'; // Replace with your desired file name
-  link.click();
-  };
   return (
     <>
       <div className="navbar bg-base-100 sticky top-0 z-50 shadow-sm">
@@ -52,29 +41,30 @@ const Navbar = () => {
                 </ul>
               </li>
               <li>
-              <a> Who Participated </a>
+                <a> Who Participated </a>
               </li>
             </ul>
           </div>
 
-          <a href="/" className="btn btn-ghost text-xl"> CSE Tour 2K24 </a>
+          <a href="/" className="btn btn-ghost text-xl">
+            {" "}
+            CSE Tour 2K24{" "}
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
             <li>
-              
-            <a href="/contact"> Contact </a>
-
+              <a href="/contact"> Contact </a>
             </li>
             <li>
               <details>
-                <summary> Photo Gallery  </summary>
+                <summary> Photo Gallery </summary>
                 <ul className="p-2">
                   <li>
                     <a> Teacher </a>
                   </li>
                   <li>
-                    <a> Student  </a>
+                    <a> Student </a>
                   </li>
                 </ul>
               </details>
@@ -85,10 +75,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-        <a href="/tourplane" onClick={handleDownload} className="mx-1 bg-secondary btn"> Download Tour Plane </a>
-          <a href="/booking" className="btn bg-green-300">Book a Seat </a>
+          <a href="/booking" className="btn bg-green-300">
+            Book a Seat{" "}
+          </a>
           {/* <Link to="/booking" className="btn">Button</Link> */}
-
         </div>
       </div>
     </>
