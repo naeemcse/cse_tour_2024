@@ -5,6 +5,7 @@ import Booking from "./pages/Booking";
 import ContactPage from "./pages/Contact";
 import Home from "./pages/Home";
 import PageNotFound from "./pages/PageNotFound";
+import TourPlane from "./pages/TourPlane";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Route path="/booking" element={<Booking />} />
         <Route path="/*" element={<PageNotFound />} />
         <Route path="/contact" element={<ContactPage />} />
-      </Routes>
+        <Route path="/tourplane" element={<TourPlane />} />
+     </Routes>
     </BrowserRouter>
   );
 }

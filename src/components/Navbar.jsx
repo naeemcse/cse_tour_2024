@@ -75,6 +75,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
+          <a href="/tourplane" className="font-mono mx-2"> Tour Timeline </a>
           <a href="/booking" className="btn bg-green-300">
             Book a Seat{" "}
           </a>

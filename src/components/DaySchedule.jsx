@@ -65,34 +65,40 @@ const DailySchedule = () => {
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    10:30AM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Ship Journey  </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    2:00pM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Cheak in  </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    2:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Lunch </span>{" "}
                 </li>
 
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    4:00pM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className="">Segment </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    9:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className="">Dinner</span>{" "}
+                </li>
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    10:00PM
+                  </span>
+                  <span className=""> Chitchat </span>{" "}
                 </li>
               </ul>
             </TimelineContent>
@@ -123,34 +129,34 @@ const DailySchedule = () => {
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    11:00AM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Goto Chera Island </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    02:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Lunch </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    4:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Segment  </span>{" "}
                 </li>
 
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    9:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> BBQ </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    10:00AM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className="text-xl text-green-400 font-bold "> Cultural Program  </span>{" "}
                 </li>
               </ul>
             </TimelineContent>
@@ -162,7 +168,7 @@ const DailySchedule = () => {
               color="text.secondary"
               className="!font-secondary !font-medium"
             >
-              2 March 2024
+              3 March 2024
             </TimelineOppositeContent>
             <TimelineSeparator>
               <TimelineConnector />
@@ -184,35 +190,43 @@ const DailySchedule = () => {
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    11:00AM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Bag and Baggage  </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    2:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Lunch </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    3:00AM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Cheack Out </span>{" "}
                 </li>
 
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    5:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className=""> Return to Teknaf  </span>{" "}
                 </li>
                 <li className="space-x-2 font-secondary text-lg font-medium">
                   <span className="text-xs text-gray-700 font-light">
-                    9:00AM
+                    9:00PM
                   </span>
-                  <span className="">Breakfast</span>{" "}
+                  <span className="text-2xl text-red-500 font-bold "> Cox-Bazar Dinnar Night   </span>{" "}
                 </li>
+                <li className="space-x-2 font-secondary text-lg font-medium">
+                  <span className="text-xs text-gray-700 font-light">
+                    11:00PM
+                  </span>
+                  <span className="text-2xl text-red-500 font-bold "> Return   </span>{" "}
+                </li>
+
+
               </ul>
             </TimelineContent>
           </TimelineItem>
