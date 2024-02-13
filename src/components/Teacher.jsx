@@ -63,16 +63,16 @@ const Teacher = () => {
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 ">
       {data.map((val, ind) => (
         <div
-          className="p-5 mx-auto rounded group max-w-sm sm:max-w-md md:max-w-lg "
+          className="p-5 mx-auto rounded group max-w-lg sm:max-w-md md:max-w-lg "
           key={ind}
         >
           <div className="bg-[whitesmoke] rounded rounded-ee-none pb-8 pt-10 px-6 relative">
-            <p className="font-secondary text-gray-700">
+            {/* <p className="font-secondary text-gray-700">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. At enim
               odit sequi facere quasi autem sapiente minus architecto eaque,
               distinctio, cumque rerum alias, dolorem fugit inventore sit vitae
               nam ullam.
-            </p>
+            </p> */}
             <div className="flex flex-col items-center gap-4 mt-6">
               <img
                 src={val.img}
@@ -108,7 +108,7 @@ const Teacher = () => {
           {/* Your Swiper slide content */}
           <div
           className="p-5 mx-auto rounded group max-w-sm sm:max-w-md md:max-w-lg "
-          key={ind}
+          key={ind} 
         >
           <div className="bg-[whitesmoke] rounded rounded-ee-none pb-8 pt-10 px-6 relative">
             <p className="font-secondary text-gray-700">

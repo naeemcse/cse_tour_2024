@@ -5,7 +5,7 @@ import Services from "../components/Services";
 import Teacher from "../components/Teacher";
 const Home = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full h-full m-0">
       <Hero />
       <DaySchedule />
       <Teacher />
